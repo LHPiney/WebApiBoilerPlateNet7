@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{65208480-2F07-4FDB-A729-9C9339879642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C7937A36-A19E-4A28-B1FC-BE4AEEF4D4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBoilerPlate.Core", "src\WebApiBoilerPlate.Core\WebApiBoilerPlate.Core.csproj", "{168EB659-0F17-454E-8F35-21E789560082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBoilerPlate.Api", "src\WebApiBoilerPlate.Api\WebApiBoilerPlate.Api.csproj", "{5E75488A-1959-4E8F-BE32-E87105205A39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168EB659-0F17-454E-8F35-21E789560082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168EB659-0F17-454E-8F35-21E789560082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168EB659-0F17-454E-8F35-21E789560082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168EB659-0F17-454E-8F35-21E789560082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E75488A-1959-4E8F-BE32-E87105205A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E75488A-1959-4E8F-BE32-E87105205A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E75488A-1959-4E8F-BE32-E87105205A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E75488A-1959-4E8F-BE32-E87105205A39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{168EB659-0F17-454E-8F35-21E789560082} = {65208480-2F07-4FDB-A729-9C9339879642}
+		{5E75488A-1959-4E8F-BE32-E87105205A39} = {65208480-2F07-4FDB-A729-9C9339879642}
+	EndGlobalSection
+EndGlobal
