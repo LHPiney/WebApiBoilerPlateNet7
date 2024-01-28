@@ -16,7 +16,8 @@ public class GetAllWeatherForecastService : IGetAllWeatherForecastService
     {
         _weatherForecastRepository = weatherForecastRepository
                                      ?? throw new ArgumentNullException(nameof(weatherForecastRepository));
-        _logger = logger;
+        _logger = logger 
+                  ?? throw new ArgumentNullException(nameof(logger));
     }
     
     public async Task<IEnumerable<WeatherForecast>> Do()
