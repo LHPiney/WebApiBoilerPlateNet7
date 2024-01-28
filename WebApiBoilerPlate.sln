@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBoilerPlate.Core", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBoilerPlate.Api", "src\WebApiBoilerPlate.Api\WebApiBoilerPlate.Api.csproj", "{5E75488A-1959-4E8F-BE32-E87105205A39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBoilerPlate.Core.Test", "test\WebApiBoilerPlate.Core.Test\WebApiBoilerPlate.Core.Test.csproj", "{60B599A4-8C52-43A8-A647-FE14B43CDF08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +24,14 @@ Global
 		{5E75488A-1959-4E8F-BE32-E87105205A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E75488A-1959-4E8F-BE32-E87105205A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E75488A-1959-4E8F-BE32-E87105205A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B599A4-8C52-43A8-A647-FE14B43CDF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B599A4-8C52-43A8-A647-FE14B43CDF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B599A4-8C52-43A8-A647-FE14B43CDF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B599A4-8C52-43A8-A647-FE14B43CDF08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{168EB659-0F17-454E-8F35-21E789560082} = {65208480-2F07-4FDB-A729-9C9339879642}
 		{5E75488A-1959-4E8F-BE32-E87105205A39} = {65208480-2F07-4FDB-A729-9C9339879642}
+		{60B599A4-8C52-43A8-A647-FE14B43CDF08} = {C7937A36-A19E-4A28-B1FC-BE4AEEF4D4CD}
 	EndGlobalSection
 EndGlobal

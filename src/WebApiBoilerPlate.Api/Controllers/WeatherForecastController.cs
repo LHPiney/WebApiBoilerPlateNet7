@@ -21,9 +21,12 @@ public class WeatherForecastController : ControllerBase
                   ?? throw new ArgumentNullException(nameof(logger));
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
-    [Route("/api/v1/WeatherForecast")]
-    public async Task<IActionResult> Get()
+    [HttpGet(Name = "GetAllWeatherForecast", Order = 1)]
+    [ProducesResponseType(typeof(IEnumerable<WeatherForecastDto>), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    
+    public async Task<IActionResult> GetAllWeatherForecast()
     {
         try
         {
