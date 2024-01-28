@@ -1,1 +1,1 @@
-This is web api in net 7 , temaplate example
+This is an example of webapi based on controllers and .net core7
